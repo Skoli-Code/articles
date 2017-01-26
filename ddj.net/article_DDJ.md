@@ -31,11 +31,12 @@ Once we delimited our study perimeter and coded the scrapers needed for our vari
 
 We did basic operations to clean it like removing empty articles and cleaning text from artefact like remaining javascript code or HTML entities. Then we noticed that newspapers tended to post articles with identical (or almost identical) content. After a small study it could either be explained as some corrected version or as a duplicated version published in a different edition of the newspapers. This could be ignored but we considered that it could give artificial importance to certain terms / words in our analysis compared to other so we decided to remove those duplicates.
 
-Finally, in order to prepare our data for analysis we did relatively common operations: punctuation removal and lowering the case to improve measurement of the different terms (so "Muslim" and "muslim" can be counted as the same term). We also removed the different stop words / tool words that didn't bring much information with them. 
+Finally, in order to prepare our data for analysis we did relatively common operations: punctuation removal and lowering the case to improve measurement of the different terms (so "Muslim" and "muslim" can be counted as the same term). We also removed the different stop words / tool words that didn't bring much information with them.
 
 ## Analysis & Metrics
-This is where thing got exciting for us because we finally could start to explore the data and figure out what excatly we could tell thanks to it. We also experimented many text mining models and libraries but we sticked to a "simple" model because we didn't want to use a model we didn't totally understood and then avoid to use results we couldn't explain.
+This is where thing got exciting for us because we finally could start to explore the data and figure out what exactly we could tell thanks to it. We also experimented many text mining models and libraries but we sticked to a "simple" model because we didn't want to use a model we didn't totally understood and then avoid to use results we couldn't explain.
 
+![architecture of islam, media object](analysis-model.png)
 
 ## Metrics
 - occurences count
