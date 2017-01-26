@@ -38,6 +38,7 @@ This is where thing got exciting for us because we finally could start to explor
 
 ![architecture of islam, media object](analysis-model.png)
 
+As you can
 ## Metrics
 - occurences count
     - by year / per sub-corpus => 1.1
