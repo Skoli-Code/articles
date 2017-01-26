@@ -11,7 +11,7 @@ A small disclaimer: since it was the first project of our agency we were quite l
 
 To quantify the evolution of the islam subject we chose to focus on newspapers articles that mentioned "islam" or "muslim", allowing us to also retrieve articles mentioning "islamism", "islamist" and so on. Then we needed to decide what were the newspapers to target so we investigated the most read daily newspapers in France daily press (the so called "presse quotidienne nationale - PQN" in French).
 
-From all the newspapers we studied we chose to select only three titles: Le Monde, Le Figaro and Liberation. This small selection can be explained by our will to fit as best as possible to the dominant political spectrum in the press by puting "Libération" to the left of the spectrum, "Le Figaro" to the right and "Le Monde" at its center. This is also an economical and time saving choice. We observed some inequalities in terms of access to articles and some newspapers didn't have a working search engine to use for articles retrieving so we took this drastic choice of keeping only three newspapers.
+From all the newspapers we studied we chose to select only three titles: Le Monde, Le Figaro and Liberation. This small selection can be explained by our will to fit as best as possible to the dominant political spectrum in the press by putting "Libération" to the left of the spectrum, "Le Figaro" to the right and "Le Monde" at its center. This is also an economical and time saving choice. We observed some inequalities in terms of access to articles and some newspapers didn't have a working search engine to use for articles retrieving so we took this drastic choice of keeping only three newspapers.
 
 The last choice we had to make was the time period to study. Indeed at first we wanted to study a of 20 years (1995-2015) but we were soon forced to reduce our scope because some newspapers articles were not accessible before 1997 so we fixed our period to 1997-2015 hoping to actualize this study later to cover a larger time lapse.
 
@@ -38,7 +38,8 @@ This is where thing got exciting for us because we finally could start to explor
 
 ![architecture of islam, media object](analysis-model.png)
 
-As you can
+As you can see this model depends on two different parts, the part-of-speech tagging which will turn raw texts into a tagged texts so that we can after that see what words are names, adjectives, verbs etc. And the CountVectorizer feature took from [sci-kit learn][sklearn], a Python library for machine-learning operations, that helps us to create [Document-Term Matrices][dtm], a key element in text-mining analysis. This matrix
+
 ## Metrics
 - occurences count
     - by year / per sub-corpus => 1.1
@@ -48,3 +49,6 @@ As you can
 - want to go further
     - many subjects could be treated, thanks to topic & dynamic topic modeling
     - other text mining analysis models should be applied to this corpus with new research collaboration
+
+[sklearn]:http://scikit-learn.org/stable/index.html
+[dtm]: https://en.wikipedia.org/wiki/Document-term_matrix
