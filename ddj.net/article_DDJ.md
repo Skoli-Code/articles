@@ -1,5 +1,5 @@
 # Islam, media object
-"Islam, media object" is a collaboration between [Moussa Bourekba][moussa], researcher at the Barcelona Center for International Affairs ([CIDOB][cidob]) and associate professor at the Ramon Llul university of Barcelona, and Skoli, our young agency created in 2016 by Pierre Bellon (developer), Gauthier Bravais (project manager) and Lucas Piessat (journalist).
+"Islam, media object" is a collaboration between [Moussa Bourekba][moussa], researcher at the Barcelona Center for International Affairs ([CIDOB][cidob]) and associate professor at the Ramon Llul university of Barcelona, and [Skoli][skoli], our young agency created in 2016 by Pierre Bellon (developer), Gauthier Bravais (project manager) and Lucas Piessat (journalist).
 
 ## Project's origins
 
@@ -38,18 +38,23 @@ This is where things got exciting for us because we finally could start to explo
 
 As you can see this model depends on two different parts, the part-of-speech tagging which will turn raw texts into a tagged texts so that we can after that see what words are names, adjectives, verbs etc. And the CountVectorizer feature took from [sci-kit learn][sklearn], a Python library for machine-learning operations, that helps us to create [Document-Term Matrices][dtm], a key element in text-mining analysis.
 
+The basic principle of this matrix is to hold occurrences of terms in all our corpus documents. As shown in the scheme above matrix's columns indices represents the corpus' terms (which can be a word or a set of words, a [n-gram][ngram]) when all rows represents the documents. Since we hold in a separate array all references to those documents we could then query this matrix with complex queries.
+
+![Document-Term matrix analysis and reductions](dtm-analysis.png)
+
+For instance we could retrieve all the matrix columns that represented a word containing "islam", then process it with [pandas][pandas] to either just obtain the total occurrences by reducing the matrix to a single value or to a matrix of periods instead of documents (since we knew the documents' publishing date). Also, thanks to part-of-speech tagging we could create more complex queries like "give me all the terms with a first word like islam followed by an adjective".
+
 We then divided our analysis in two parts. First, a quantitative study where we only focused on how the occurrences of "islam" evolved in time. The second part is more qualitative in the sense we wanted to study how journalists were talking about islam and how it evolve in time depending on the newspapers they published in.
 
-## Visualizing our data
-In this part we wanted to have two levels of granularity. The first level is the year one. This allowed us to see the bigger picture and the global trend in our corpus and observe a global shift around 2001 because of the 9/11 attacks. At this time "islam" occurrences reached a level that never came back to what it was before.
+## Visualizing the evolution of "islam"
+In this part we wanted to have two levels of granularity: annually and monthly. The first level is useful to see the bigger picture and the global trend in our corpus. It helped us to see a global shift around 2001 because of the 9/11 attacks. At this time "islam" occurrences reached a level that never came back to what it was before.
 
 ![architecture of islam, media object](occurrences-per-year.png)
 
 The second level of granularity was the month. This level allowed us to discover "hot" and "cold" moments in the actuality (see the big height that occurred in September of 2001 bellow).
 ![architecture of islam, media object](occurrences-per-month.png)
 
-## The evolution of terms & adjectives
-
+## Visualizing the discourse evolution
 We then studied what were the terms used and visualize that in two way. First we produced a word-cloud to see the most used word on the whole corpus. We also wanted to show the most used words per year and per newspapers in order to have an overview of the main subjects for all our source. For instance we can see bellow that war in Iraq was one of the main subject.
 ![Bubble chart of the most used words per sub corpus and per year](words-per-year.png)
 
@@ -59,11 +64,14 @@ Visualizing the most associated adjectives to islam was one of our main goal bec
 
 
 ## Conclusion
-In conclusion we're happy that we could publish this little study in the way we imagined it but we feel a bit frustrated because we learned about tons of techniques in the process of making this study that we couldn't use because of ressources limitation. So now we can see a lot of parts that could be studied deeper with a bit of time and some text-mining techniques (like topic modeling for instance). This would let emerge new informations about this corpus that couldn't be seen with the techniques we used.
+In conclusion we're happy that we could publish this little study in the way we imagined it but we feel a bit frustrated because we learned about tons of techniques in the process of making this study that we couldn't use because of ressources limitation. So now we can see a lot of parts that could be studied deeper with a bit of time and some text-mining techniques (like sentiment analysis and topic modeling for instance).
 
-Nevertheless this was a rich collaboration between a researcher and a "data-driven" agency and we're eager to start the next ones.
+This would let emerge new informations about this corpus that couldn't be seen with the techniques we used. Nevertheless this was a rich collaboration between a researcher and a "data-driven" agency, we learned a lot during this project and we're eager to start the next ones.
 
 [moussa]:http://www.cidob.org/en/experts/moussa_bourekba/(language)/eng-US
 [cidob]:http://www.cidob.org/en/
 [sklearn]:http://scikit-learn.org/stable/index.html
 [dtm]: https://en.wikipedia.org/wiki/Document-term_matrix
+[skoli]:http://skoli.fr
+[ngram]:https://en.wikipedia.org/wiki/N-gram
+[pandas]:http://pandas.pydata.org/

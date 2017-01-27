@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   _ngcontent-twl-12=""
+   width="736.393"
+   height="495.192"
+   id="svg6806"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="wordcloud-adjectives.svg">
+  <metadata
+     id="metadata6954">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6952" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview6950"
+     showgrid="false" />
+  <g
+     transform="translate(368.1965, 247.596)"
+     id="g6808"
+     inkscape:export-filename="/home/toutenrab/Dev/_PRO/Skoli/Articles/ddj.net/wordcloud-adjectives.png"
+     inkscape:export-xdpi="123.45486"
+     inkscape:export-ydpi="123.45486">
+    <text
+       text-anchor="middle"
+       transform="translate(45,4)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(0, 0, 0); font-size: 100px;"
+       id="text6810">radical</text>
+    <text
+       text-anchor="middle"
+       transform="translate(154,-108)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(61, 61, 61); font-size: 75px;"
+       id="text6812">political</text>
+    <text
+       text-anchor="middle"
+       transform="translate(169,35)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(146, 146, 146); font-size: 37px;"
+       id="text6814">sunni</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-24,35)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(169, 169, 169); font-size: 27px;"
+       id="text6816">rigoristic</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-86,119)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(171, 171, 171); font-size: 26px;"
+       id="text6818">shiite</text>
+    <text
+       text-anchor="middle"
+       transform="translate(108,120)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(176, 176, 176); font-size: 24px;"
+       id="text6820">muslim</text>
+    <text
+       text-anchor="middle"
+       transform="translate(136,63)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(176, 176, 176); font-size: 24px;"
+       id="text6822">other</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-57,67)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(178, 178, 178); font-size: 23px;"
+       id="text6824">religious</text>
+    <text
+       text-anchor="middle"
+       transform="translate(118,144)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(180, 180, 180); font-size: 22px;"
+       id="text6826">true</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-94,-99)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(180, 180, 180); font-size: 22px;"
+       id="text6828">fundamentalist</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-98,-121)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(182, 182, 182); font-size: 21px;"
+       id="text6830">arab</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-116,43)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(182, 182, 182); font-size: 21px;"
+       id="text6832">new</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-45,-59)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(185, 185, 185); font-size: 20px;"
+       id="text6834">traditional</text>
+    <text
+       text-anchor="middle"
+       transform="translate(231,-20)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(185, 185, 185); font-size: 20px;"
+       id="text6836">islamist</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-49,92)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(185, 185, 185); font-size: 20px;"
+       id="text6838">only</text>
+    <text
+       text-anchor="middle"
+       transform="translate(134,-61)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(185, 185, 185); font-size: 20px;"
+       id="text6840">large</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-123,-60)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(187, 187, 187); font-size: 19px;"
+       id="text6842">pure</text>
+    <text
+       text-anchor="middle"
+       transform="translate(109,87)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(187, 187, 187); font-size: 19px;"
+       id="text6844">modern</text>
+    <text
+       text-anchor="middle"
+       transform="translate(178,88)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(187, 187, 187); font-size: 19px;"
+       id="text6846">holy</text>
+    <text
+       text-anchor="middle"
+       transform="translate(58,-156)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(189, 189, 189); font-size: 18px;"
+       id="text6848">official</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-142,21)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(189, 189, 189); font-size: 18px;"
+       id="text6850">turkish</text>
+    <text
+       text-anchor="middle"
+       transform="translate(65,23)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(189, 189, 189); font-size: 18px;"
+       id="text6852">open</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-33,-127)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(191, 191, 191); font-size: 17px;"
+       id="text6854">wahhabi</text>
+    <text
+       text-anchor="middle"
+       transform="translate(44,66)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(191, 191, 191); font-size: 17px;"
+       id="text6856">compatible</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-150,122)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(191, 191, 191); font-size: 17px;"
+       id="text6858">good</text>
+    <text
+       text-anchor="middle"
+       transform="translate(169,141)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(191, 191, 191); font-size: 17px;"
+       id="text6860">just</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-103,86)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6862">young</text>
+    <text
+       text-anchor="middle"
+       transform="translate(11,89)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6864">proper</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-155,-10)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6866">conservative</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-169,-35)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6868">contemporary</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-213,10)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6870">ancient</text>
+    <text
+       text-anchor="middle"
+       transform="translate(70,-84)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6872">central</text>
+    <text
+       text-anchor="middle"
+       transform="translate(196,114)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6874">orthodox</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-172,60)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6876">authentic</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-173,-61)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6878">latest</text>
+    <text
+       text-anchor="middle"
+       transform="translate(45,125)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(193, 193, 193); font-size: 16px;"
+       id="text6880">sufi</text>
+    <text
+       text-anchor="middle"
+       transform="translate(167,165)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6882">hard</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-90,139)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6884">salafist</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-12,-158)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6886">principal</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-14,114)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6888">majority</text>
+    <text
+       text-anchor="middle"
+       transform="translate(157,-86)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6890">popular</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-84,-147)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6892">public</text>
+    <text
+       text-anchor="middle"
+       transform="translate(211,-84)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6894">local</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-218,40)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6896">incompatible</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-258,-15)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6898">in minority</text>
+    <text
+       text-anchor="middle"
+       transform="translate(204,64)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6900">national</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-6,139)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6902">british</text>
+    <text
+       text-anchor="middle"
+       transform="translate(44,-181)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6904">green</text>
+    <text
+       text-anchor="middle"
+       transform="translate(104,-184)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6906">terrorist</text>
+    <text
+       text-anchor="middle"
+       transform="translate(231,-50)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6908">peaceful</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-152,90)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6910">close</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-159,-128)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6912">current</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-50,159)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6914">certains</text>
+    <text
+       text-anchor="middle"
+       transform="translate(180,-173)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6916">identity</text>
+    <text
+       text-anchor="middle"
+       transform="translate(81,-206)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6918">moroccan</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-195,103)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6920">small</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-148,-150)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6922">rigorous</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-26,-180)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6924">violent</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-220,-86)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6926">fanatical</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-106,-174)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6928">militant</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-226,-64)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6930">unique</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-251,-39)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6932">best</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-73,-197)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6934">black</text>
+    <text
+       text-anchor="middle"
+       transform="translate(248,14)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6936">original</text>
+    <text
+       text-anchor="middle"
+       transform="translate(259,40)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6938">spiritual</text>
+    <text
+       text-anchor="middle"
+       transform="translate(238,-159)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6940">african</text>
+    <text
+       text-anchor="middle"
+       transform="translate(56,148)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6942">strong</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-4,-207)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6944">responsible</text>
+    <text
+       text-anchor="middle"
+       transform="translate(-236,-110)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6946">imaginary</text>
+    <text
+       text-anchor="middle"
+       transform="translate(262,-87)rotate(0)"
+       style="font-family: &quot;PT Serif&quot;; fill: rgb(195, 195, 195); font-size: 15px;"
+       id="text6948">iranian</text>
+  </g>
+</svg>
