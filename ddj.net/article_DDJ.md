@@ -43,7 +43,7 @@ The basic principle of this matrix is to hold occurrences of terms in all our co
 
 ![Document-Term matrix analysis and reductions](dtm-analysis.png)
 
-For instance we could retrieve all the matrix columns that represented a word containing "islam", then process it with [pandas][pandas] to either just obtain the total occurrences by reducing the matrix to a single value or to a matrix of periods instead of documents (since we knew the documents' publishing date). Also, thanks to part-of-speech tagging we could create more complex queries like "give me all the terms with a first word like islam followed by an adjective".
+For instance we could retrieve all the matrix columns that represented a word containing "islam", then process it with [pandas][pandas] to either just obtain the total occurrences by reducing the matrix to a single value or to a matrix of periods instead of documents (since we knew the documents' publishing date). Also, thanks to part-of-speech tagging we could create more complex queries like "give me all the terms with a first word like islam associated with an adjective".
 
 We then divided our analysis in two parts. First, a quantitative study where we only focused on how the occurrences of "islam" evolved in time. The second part is more qualitative in the sense we wanted to study how journalists were talking about islam and how it evolve in time depending on the newspapers they published in.
 
