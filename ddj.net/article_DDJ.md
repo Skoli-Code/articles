@@ -10,9 +10,9 @@ A small disclaimer: since it was the first project of our agency we were quite l
 
 ## Delimiting the perimeter
 
-To quantify the evolution of the islam subject we chose to focus on newspapers articles that mentioned "islam" or "muslim", allowing us to also retrieve articles mentioning "islamism", "islamist" and so on. Then we needed to decide what were the newspapers to target so we investigated the most read daily newspapers in France daily press (the so called "presse quotidienne nationale - PQN" in French).
+To quantify the evolution of the islam subject we chose to focus on newspapers articles that mentioned "islam" or "muslim", allowing us to also retrieve articles mentioning "islamism", "islamist" and so on. Then we needed to decide what were the newspapers to target so we investigated the most read daily newspapers in France daily press (the so called "[presse quotidienne nationale - PQN][pqn]" in French).
 
-From all the newspapers we studied we chose to select only three titles: Le Monde, Le Figaro and Liberation. This small selection can be explained by our will to fit as best as possible to the dominant political spectrum in the press by placing "Libération" on its left, "Le Figaro" on its right and "Le Monde" on its center. This is also an economical and time-saving choice. We observed some inequalities in terms of access to articles and some newspapers didn't have a working search engine to use for articles retrieving so we took this drastic choice of keeping only three newspapers.
+From all the newspapers we studied we chose to select only three titles: Le Monde, Le Figaro and Liberation. This small selection can be explained by our will to fit as best as possible to the dominant political spectrum in the press by placing "Libération" on its left, "Le Figaro" on its right and "Le Monde" on its center. This is also an economical and time-saving choice. Indeed, we observed some inequalities of access to articles (old or not) on some newspapers. For instance some didn't have a working search engine to use for articles retrieving so decided to reduce our scope to be able to harvest data in reasonable ways.
 
 The last choice we had to make was the time period to study. Indeed at first we wanted to study a of 20 years (1995-2015) but we were soon forced to reduce our scope because some newspapers articles were not accessible before 1997 so we fixed our period to 1997-2015 hoping to actualize this study later to cover a larger time lapse.
 
@@ -35,7 +35,7 @@ Finally, in order to prepare our data for analysis we removed punctuation, lower
 ## Analysis model
 This is where things got exciting for us because we finally could start to explore the data and figure out what exactly we could tell thanks to it. We experimented many text mining models and libraries but we sticked to a "simple" model because we didn't want to use techniques we didn't totally understood and produce results we couldn't explain.
 
-![architecture of islam, media object](analysis-model.png)
+![Basic analysis model used in Islam, media object](analysis-model.png)
 
 As you can see this model depends on two different parts, the part-of-speech tagging which will turn raw texts into a tagged texts so that we can after that see what words are names, adjectives, verbs etc. And the [CountVectorizer][countvectorizer] feature took from [sci-kit learn][sklearn], a Python library for machine-learning operations, that helps us to create [Document-Term Matrices][dtm], a key element in text-mining analysis.
 
@@ -71,6 +71,8 @@ In conclusion we're happy that we could publish this little study in the way we 
 
 Nevertheless this was a rich and profitable collaboration between a researcher and a "data-driven" agency and we're eager to start the next ones, on those subjects or others.
 
+[Visit "Islam, media subject"][iom]
+
 [moussa]:http://www.cidob.org/en/experts/moussa_bourekba/(language)/eng-US
 [cidob]:http://www.cidob.org/en/
 [url]:http://www.url.edu/en
@@ -81,3 +83,5 @@ Nevertheless this was a rich and profitable collaboration between a researcher a
 [ngram]:https://en.wikipedia.org/wiki/N-gram
 [pandas]:http://pandas.pydata.org/
 [countvectorizer]:http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
+[pqn]:https://en.wikipedia.org/wiki/Presse_quotidienne_nationale_fran%C3%A7aise
+[iom]:http://en.islam-objet-mediatique.fr/
