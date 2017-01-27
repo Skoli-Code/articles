@@ -59,10 +59,10 @@ The second granularity level (occurrences / months) is more sensible to variatio
 
 ## The evolution of terms & adjectives
 
-We then studied what were the terms used and visualize that in two way. First with a word-cloud to have a global overview of the most used word on the whole corpus. Then with a bubble chart we created thanks to various parts of d3js (detailed in this [gist][gist]). The idea behind this visualization is to show the evolution of the main annual subjects per newspapers, with new words represented by filled bubbles. For instance we can see below that, in 2003, war in Iraq was one of the main subject.
+We then studied what were the terms used and visualize that in two way. First with a word-cloud to have a global overview of the most used words on the whole corpus. Then with a bubble chart we created thanks to various parts of d3js (detailed in this [gist][gist]). The idea behind this visualization is to show the evolution of the main annual subjects per newspapers, with new words represented by filled bubbles. For instance we can see below that war in Iraq was one of the main subject of 2003.
 ![Bubble chart of the most used words per sub corpus and per year](words-per-year.png)
 
-The last part of this analysis was focused on visualizing the adjectives associated to Islam. It was one of our main goal because we thought it would reflect the tone used when speaking about Islam. As in the most terms used in the corpus we divided it in two data-visualization. First, a word-cloud to have a global picture of our corpus. Then with some line charts to see and compare the usage evolution of a small number of adjectives that we wanted to study in depth.
+The last part of this analysis was focused on visualizing the adjectives associated to Islam. It was one of our main goal because we thought it would reflect the tone used when speaking about Islam. As in the first part, we divided it in two data-visualizations. First, a word-cloud to have a global picture of our corpus. Then with some line charts to see and compare the usage evolution of a small number of adjectives that we wanted to study in depth.
 
 ![Evolution of "true" islam per newspapers and per year](adjectives-per-year.png)
 
