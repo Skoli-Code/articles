@@ -37,9 +37,9 @@ This is where things got exciting for us because we finally could start to explo
 
 ![architecture of islam, media object](analysis-model.png)
 
-As you can see this model depends on two different parts, the part-of-speech tagging which will turn raw texts into a tagged texts so that we can after that see what words are names, adjectives, verbs etc. And the CountVectorizer feature took from [sci-kit learn][sklearn], a Python library for machine-learning operations, that helps us to create [Document-Term Matrices][dtm], a key element in text-mining analysis.
+As you can see this model depends on two different parts, the part-of-speech tagging which will turn raw texts into a tagged texts so that we can after that see what words are names, adjectives, verbs etc. And the [CountVectorizer][countvectorizer] feature took from [sci-kit learn][sklearn], a Python library for machine-learning operations, that helps us to create [Document-Term Matrices][dtm], a key element in text-mining analysis.
 
-The basic principle of this matrix is to hold occurrences of terms in all our corpus documents. As shown in the scheme above matrix's columns indices represents the corpus' terms (which can be a word or a set of words, a [n-gram][ngram]) when all rows represents the documents. Since we hold in a separate array all references to those documents we could then query this matrix with complex queries.
+The basic principle of this matrix is to hold occurrences of terms in all our corpus documents. As shown in the scheme above matrix's columns indices represents the corpus' terms (which can be a word or a set of words, a [n-gram][ngram]) when all rows represents the documents. Since we hold in a separate array all references to those documents we could then query this matrix with complex queries.  
 
 ![Document-Term matrix analysis and reductions](dtm-analysis.png)
 
@@ -80,3 +80,4 @@ Nevertheless this was a rich and profitable collaboration between a researcher a
 [skoli]:http://skoli.fr
 [ngram]:https://en.wikipedia.org/wiki/N-gram
 [pandas]:http://pandas.pydata.org/
+[countvectorizer]:http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
