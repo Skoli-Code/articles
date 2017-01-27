@@ -7,7 +7,7 @@ When we created Skoli we were inspired by our experience in the data-driven jour
 
 This project is kind-of a proof-of-concept of what we mean by "innovative web formats". The idea behind it is to quantify how french media are talking about islam because, with time, it became a political - and therefore a journalistic - issue we wanted to question. To do that we chose to quantitatively analyse newspapers articles mentioning terms related to Islam and Muslims.
 
-A small disclaimer: since it was our first project as an agency we were quite limited in terms of time and material resources which limited our ability to explore and gather all the data we wanted. Our time schedule was to spend one month of documentation, research and conception then 2 months of analysis and development.
+A small disclaimer: since it was the first project of our agency we were quite limited in terms of time and material resources which limited our ability to explore and gather all the data we wanted. Our time schedule was to spend one month of documentation, research and conception then 2 months of analysis and development.
 
 ## Delimiting the perimeter
 
