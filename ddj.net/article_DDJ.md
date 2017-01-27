@@ -50,7 +50,7 @@ We then divided our analysis in two parts. First, a quantitative study where we 
 ## Visualizing the evolution of "islam"
 In this part we wanted to have two levels of granularity: annually and monthly. The first level is useful to see the bigger picture and the global trend in our corpus. It helped us to see a global shift around 2001 because of the 9/11 attacks. At this time "islam" occurrences reached a level that never came back to what it was before.
 
-![architecture of islam, media object](occurrences-per-year.png)
+![Stacked area chart seen in our application (Occurrences per year and per newspaper)](occurrences-per-year.png)
 
 The second level of granularity was the month. This level allowed us to discover "hot" and "cold" moments in the actuality (see the big height that occurred in September of 2001 bellow).
 ![architecture of islam, media object](occurrences-per-month.png)
@@ -67,7 +67,7 @@ Visualizing the most associated adjectives to islam was one of our main goal bec
 
 
 ## Conclusion
-In conclusion we're happy that we could publish this little study in the way we imagined it but we feel a bit frustrated because we learned about tons of techniques in the process of making this study that we couldn't use because of ressources limitation. So now we can see a lot of parts that could be studied deeper with a bit of time and some text-mining techniques (like sentiment analysis and topic modeling for instance).
+In conclusion we're happy that we could publish this little study in the way we imagined it but we feel a bit frustrated because we learned about ton of techniques in the process of making this study that we couldn't use because of ressources limitation. So now we can see a lot of parts that could be studied deeper with a bit of time and some text-mining techniques (like sentiment analysis and topic modeling for instance) that could make emerge richer informations on this corpus.
 
 Nevertheless this was a rich and profitable collaboration between a researcher and a "data-driven" agency and we're eager to start the next ones, on those subjects or others.
 
