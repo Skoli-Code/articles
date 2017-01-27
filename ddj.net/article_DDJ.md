@@ -4,7 +4,7 @@
 
 ## Project's origins
 
-The idea behind this project was to try to quantify how french medias were talking about islam because it became over time a political and therefore a journalistic issue we wanted to question. To do that we chose to quantitavely analyse newspapers articles mentioning terms related to islam and Muslims.
+The idea behind this project was to try to quantify how french medias were talking about islam because it became over time a political and therefore a journalistic issue we wanted to question. To do that we chose to quantitatively analyse newspapers articles mentioning terms related to islam and Muslims.
 
 A small disclaimer: since it was the first project of our agency we were quite limited in terms of time and material ressources which limited our ability to explore & gather all the data we wanted to collect. Our time schedule was to spend one month of documentation, research and conception then 2 months of analysis and development.
 
