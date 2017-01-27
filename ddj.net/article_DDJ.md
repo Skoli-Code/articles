@@ -1,9 +1,9 @@
 # Islam, media object
-"Islam, media object" is a collaboration between [Moussa Bourekba][moussa], researcher at the Barcelona Center for International Affairs ([CIDOB][cidob]) and associate professor at the Ramon Llul university of Barcelona, and Skoli, our young agency created in 2016 by Pierre Bellon (developer), Gauthier Bravais (project manager) and Lucas Piessat (journalist).
+"Islam, media object" is a collaboration between [Moussa Bourekba][moussa], researcher at the Barcelona Center for International Affairs ([CIDOB][cidob]) and associate professor at the [Ramon Llul university][url] of Barcelona, and [Skoli][skoli], our young agency created in 2016 by Pierre Bellon (developer), Gauthier Bravais (project manager) and Lucas Piessat (journalist).
 
 ## Project's origins
 
-The idea behind this project was to try to quantify how french medias were talking about islam because <REFORUMULER **we felt this debate was really too passionated and we wanted to bring a new look on how this subject was dealt on the media.**> and to do that we chose to analyse thanks to data analysis newspapers articles mentioning terms related to islam and Muslims.
+The idea behind this project was to try to quantify how french medias were talking about islam because it became over time a political and therefore a journalistic issue we wanted to question. To do that we chose to quantitavely analyse newspapers articles mentioning terms related to islam and Muslims.
 
 A small disclaimer: since it was the first project of our agency we were quite limited in terms of time and material ressources which limited our ability to explore & gather all the data we wanted to collect. Our time schedule was to spend one month of documentation, research and conception then 2 months of analysis and development.
 
@@ -27,7 +27,7 @@ The fronted was designed as a static web application fed with exported data from
 ## Data collection and preparation
 Once we delimited our study perimeter and coded the scrapers needed for our various sources we started collecting data and ended up with more than 40k articles in our corpus.
 
-We did basic operations to clean it like removing empty articles and cleaning text from artefact like remaining javascript code or HTML entities. Then we noticed that newspapers tended to post articles with identical (or almost identical) content. This could be ignored but we considered that it could give artificial importance to certain terms / words in our analysis compared to other so we decided to remove those duplicates.
+We did basic operations to clean it like removing empty articles and cleaning text from artefact like remaining javascript code or HTML entities. Then we noticed that newspapers tended to duplicate the publication of articles with identical (or almost identical) content. This could be ignored but we considered that it could give artificial importance to certain terms / words in our analysis compared to other so we decided to remove those duplicates.
 
 Finally, in order to prepare our data for analysis we removed punctuation, lowered the case to improve measurement of the different terms (so "Muslim" and "muslim" can be counted as the same term) and we also removed the different stop words / tool words that didn't bring much information with them.
 
@@ -50,7 +50,7 @@ The second level of granularity was the month. This level allowed us to discover
 
 ## The evolution of terms & adjectives
 
-We then studied what were the terms used and visualize that in two way. First we produced a word-cloud to see the most used word on the whole corpus. We also wanted to show the most used words per year and per newspapers in order to have an overview of the main subjects for all our source. For instance we can see bellow that war in Iraq was one of the main subject.
+We then studied what were the terms used and visualize that in two way. First we produced a word-cloud to see the most used word on the whole corpus. We also wanted to show the most used words per year and per newspapers in order to have an overview of the main subjects for all our sources. For instance we can see bellow that, in 2003, war in Iraq was one of the main subject.
 ![Bubble chart of the most used words per sub corpus and per year](words-per-year.png)
 
 Visualizing the most associated adjectives to islam was one of our main goal because we thought it would reflect the tone used when speaking about islam. As in the most terms used in the corpus we divided it in two data-visualization. One a word-cloud to have to global picture and two a small selection to study in depth some of the adjectives.
@@ -61,9 +61,11 @@ Visualizing the most associated adjectives to islam was one of our main goal bec
 ## Conclusion
 In conclusion we're happy that we could publish this little study in the way we imagined it but we feel a bit frustrated because we learned about tons of techniques in the process of making this study that we couldn't use because of ressources limitation. So now we can see a lot of parts that could be studied deeper with a bit of time and some text-mining techniques (like topic modeling for instance). This would let emerge new informations about this corpus that couldn't be seen with the techniques we used.
 
-Nevertheless this was a rich collaboration between a researcher and a "data-driven" agency and we're eager to start the next ones.
+Nevertheless this was a rich and profitable collaboration between a researcher and a "data-driven" agency and we're eager to start the next ones, on those subjects or others.
 
 [moussa]:http://www.cidob.org/en/experts/moussa_bourekba/(language)/eng-US
 [cidob]:http://www.cidob.org/en/
+[url]:http://www.url.edu/en
+[skoli]:http://skoli.fr
 [sklearn]:http://scikit-learn.org/stable/index.html
 [dtm]: https://en.wikipedia.org/wiki/Document-term_matrix
