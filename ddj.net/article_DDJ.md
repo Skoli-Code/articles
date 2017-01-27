@@ -1,4 +1,4 @@
-# Islam, media subject
+# Islam, media subject: how to quantify the perception of Islam in the media
 
 "Islam, media subject" is a collaboration between [Moussa Bourekba][moussa], researcher at Barcelona Center for International Affairs ([CIDOB][cidob]) and associate professor at [Ramon Llul university][url] of Barcelona, and [Skoli][skoli], our young agency created in 2016 by Pierre Bellon (developer), Gauthier Bravais (project manager) and Lucas Piessat (journalist).
 
